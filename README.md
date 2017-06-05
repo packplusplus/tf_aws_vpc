@@ -12,6 +12,7 @@ Module Input Variables
 - `public_subnets` - comma separated list of public subnet cidrs
 - `private_subnets` - - comma separated list of private subnet cidrs
 - `azs` - comma separated lists of AZs in which to distribute subnets
+- `enable_classiclink` - should be true if you want to use classic link to connect to EC2 classic instances
 - `enable_dns_hostnames` - should be true if you want to use private DNS within the VPC
 - `enable_dns_support` - should be true if you want to use private DNS within the VPC
 
